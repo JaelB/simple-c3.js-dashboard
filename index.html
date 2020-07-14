@@ -113,7 +113,7 @@
         'subLevel': 'Sub-Level',
         'value': 'Value'
       };
-      d3.csv('level-data.csv').then((data) => {
+      d3.csv('levelData.csv').then((data) => {
 
         ids = data.map(d => d.id);
         distinctIds = ids.filter(getUniqueArray);
